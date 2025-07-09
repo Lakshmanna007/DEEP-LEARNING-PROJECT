@@ -69,5 +69,5 @@ pip install tensorflow matplotlib numpy
 python cnn_image_classifier.py
 ## ▶️ out put
 ![Image](https://github.com/user-attachments/assets/099dce6c-40bd-45a3-b72b-956c510dd300)
-
+![Image](https://github.com/user-attachments/assets/e7b4c8fa-6d59-45d1-9254-b306e6657344)
 
