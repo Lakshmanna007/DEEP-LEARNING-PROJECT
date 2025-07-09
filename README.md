@@ -41,11 +41,7 @@ The project uses the **CIFAR-10** dataset, which is a standard benchmark dataset
 - 60,000 color images (32x32 pixels)
 - 50,000 images for training
 - 10,000 images for testing
-- 10 image classes: `Airplane`, `Automobile`, `Bird`, `Cat`, `Deer`, `Dog`, `Frog`, `Horse`, `Ship`, `Truck`
-
-This dataset is automatically downloaded through TensorFlow’s built-in datasets API, so no manual download is needed.
-
----
+- 10 image classes: `Airplane`, `Automobile`, `Bird`, `Cat`, `Deer`, `Dog`, `Frog`, `Horse`, `Ship
 
 ## 🛠️ Tools & Technologies Used
 
@@ -64,24 +60,14 @@ The CNN model used in this project has the following architecture:
 2. **MaxPooling2D Layer**: Downsamples feature maps
 3. **Conv2D Layer (64 filters)**: Increases feature extraction depth
 4. **MaxPooling2D Layer**
-5. **Conv2D Layer (64 filters)**: Deep feature learning
-6. **Flatten Layer**: Converts the 3D output to 1D for Dense layers
-7. **Dense Layer (64 units, ReLU activation)**
-8. **Output Layer (10 units, softmax or logits)**
-
-This design allows the model to extract low-level and high-level features effectively and make multi-class predictions.
-
----
-
+5. **Conv2D Layer (64 filters)**: Deep feature lea
+## ▶️ How to Run
 ## ▶️ How to Run
 
-Make sure you have Python installed. Then install the required libraries and run the model script.
-
-```bash
+Make sure you have Python installed
 pip install tensorflow matplotlib numpy
 python cnn_image_classifier.py
-
-## out put
-
+## ▶️ out put
 ![Image](https://github.com/user-attachments/assets/099dce6c-40bd-45a3-b72b-956c510dd300)
+
 
