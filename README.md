@@ -80,3 +80,8 @@ Make sure you have Python installed. Then install the required libraries and run
 ```bash
 pip install tensorflow matplotlib numpy
 python cnn_image_classifier.py
+
+## out put
+
+![Image](https://github.com/user-attachments/assets/099dce6c-40bd-45a3-b72b-956c510dd300)
+
